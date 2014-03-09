@@ -1,13 +1,13 @@
 'use strict';
 
 module.exports = {
-    db: 'mongodb://localhost/mean-dev',
+    db: 'mongodb://localhost/space-traders-users',
     app: {
-        name: 'MEAN - A Modern Stack - Development'
+        name: 'User node for Space Traders'
     },
     facebook: {
-        clientID: 'APP_ID',
-        clientSecret: 'APP_SECRET',
+        clientID: '646559945411747',
+        clientSecret: '1d94298a592badcac1b42810243c47be',
         callbackURL: 'http://localhost:3000/auth/facebook/callback'
     },
     twitter: {
